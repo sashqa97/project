@@ -37,7 +37,7 @@
 }
 
 body {
-    background-image: url(./images/home-bg.jpg);
+    background-image:url("./images/home-bg.jpg");
     background-position-y: -120px;
     background-repeat: no-repeat;
     background-size: 1350px 681px;
@@ -68,7 +68,7 @@ body {
 .center {
     position: relative;
     text-align: center;
-    font-size: 30px;
+    font-size: px;
     color: white;
     margin-top: 200px;
 }
@@ -98,9 +98,9 @@ h1 {
 
 }
 
-h2, h3 {
-    font-size: 36px;
-    color: black;
+h2 {
+font-weight: 500;
+font-size: 2rem;
 }
 
 a {
