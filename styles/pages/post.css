@@ -16,6 +16,7 @@
     font-weight: 800;
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-decoration: none;
 
 
     
@@ -35,6 +36,7 @@
 .margin {
     margin-right: 50px;
     color: white;
+    text-decoration: none;
 
 
 }
@@ -86,12 +88,28 @@ p {
 
 .center {
     position: relative;
-    text-align: center;
+    text-align: left;
     color: white;
-    margin-top: 300px;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    
+
 }
 
+.font1  {
+    font-size: 40px;
+    font-weight: 800;
+}
 
+.font2 {
+    font-size: 25px;
+}
+
+.font3 {
+    font-size: 20px;
+}
 
 
 .content {
@@ -99,8 +117,13 @@ p {
     margin: 450px 350px 0px 350px;
     flex-wrap: wrap;
     flex-direction: row;
+
 }
 
+.italic {
+    font-style: italic;
+    color: #868e96;
+}
 
 .footer {
     margin-bottom: 100px;
@@ -129,8 +152,3 @@ p {
     font-size: 50px;
 }
 
-
-a {
-    text-decoration: none;
-    
-}
